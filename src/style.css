@@ -1,0 +1,11 @@
+:root { --bg:#0e0f12; --panel:#15171c; --text:#d9dde8; --accent:#4da3ff; --line:#2a2d36; }
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; }
+body { margin:0; background:var(--bg); color:var(--text); font-family: ui-sans-serif, system-ui, sans-serif; }
+button { background: var(--panel); border:1px solid var(--line); color:var(--text); padding:6px 10px; border-radius:6px; }
+button:hover { border-color: var(--accent); }
+input[type="range"] { width: 100%; }
+.panel { background: var(--panel); border:1px solid var(--line); border-radius:8px; padding:8px; }
+.row { display:flex; gap:8px; align-items:center; }
+.col { display:flex; flex-direction:column; gap:8px; }
+.grid { display:grid; gap:8px; }
