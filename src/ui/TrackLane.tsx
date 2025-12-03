@@ -21,3 +21,16 @@ export default function TrackLane() {
     </div>
   );
 }
+// ...
+import PluginRack from './PluginRack';
+
+export default function TrackLane() {
+  // existing code...
+  return (
+    <div className="panel">
+      {/* existing content */}
+      <PluginRack trackName="Test Track" />
+    </div>
+  );
+}
+
