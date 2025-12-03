@@ -38,4 +38,12 @@ export default function App() {
       <div className="panel">Project: {project.name} • {project.bpm} BPM • {project.timeSignature[0]}/{project.timeSignature[1]}</div>
     </div>
   );
+  import PluginBridgePanel from './ui/PluginBridgePanel';
+// ...
+<div className="row">
+  <TransportBar />
+  <PluginBrowser />
+  <PluginBridgePanel />
+</div>
+
 }
