@@ -1,0 +1,15 @@
+{
+  "name": "plugin-host",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node ./dist/server.js"
+  },
+  "dependencies": {
+    "express": "4.19.2",
+    "ws": "8.18.0"
+  },
+  "devDependencies": {
+    "typescript": "5.6.3"
+  }
+}
