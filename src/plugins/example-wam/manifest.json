@@ -1,0 +1,9 @@
+{
+  "name": "Example WebAudio Module",
+  "id": "example-wam",
+  "parameters": [
+    { "name": "gain", "min": 0, "max": 2, "default": 1 }
+  ],
+  "inputs": 1,
+  "outputs": 1
+}
